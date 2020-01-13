@@ -3,3 +3,4 @@
 head_backup/data/data/net.daylio/**
 head_backup.tar.gz
 *.code-workspace
+*.db
