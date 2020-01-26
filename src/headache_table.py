@@ -8,7 +8,7 @@ class HeadacheTable(DBTable):
         fields = [\
             DBField("ENTRY",        "INTEGER", True),
             DBField("TIME",         "INTEGER", False),
-            DBField("WELLNESS_PCT", "INTEGER", False),
+            DBField("HEADACHE", "INTEGER", False),
         ]
         parent=super(HeadacheTable, self)
         parent.__init__(self.TABLE_NAME, fields)
