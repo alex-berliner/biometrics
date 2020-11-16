@@ -8,7 +8,7 @@ class MedicineTable(DBTable):
         fields = [\
             DBField("ENTRY",    "INTEGER", True),
             DBField("TIME",     "INTEGER", False),
-            DBField("MEDICINE", "TEXT", False),
+            DBField("MEDICINE", "TEXT",    False),
         ]
         parent=super(MedicineTable, self)
         parent.__init__(self.TABLE_NAME, fields)

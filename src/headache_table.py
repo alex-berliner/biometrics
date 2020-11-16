@@ -6,8 +6,8 @@ class HeadacheTable(DBTable):
     def __init__(self):
         self.TABLE_NAME  = "HEADACHE"
         fields = [\
-            DBField("ENTRY",        "INTEGER", True),
-            DBField("TIME",         "INTEGER", False),
+            DBField("ENTRY",    "INTEGER", True),
+            DBField("TIME",     "INTEGER", False),
             DBField("HEADACHE", "INTEGER", False),
         ]
         parent=super(HeadacheTable, self)

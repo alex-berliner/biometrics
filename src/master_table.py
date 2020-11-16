@@ -6,10 +6,10 @@ class MasterTable(DBTable):
     def __init__(self):
         self.TABLE_NAME  = "MEDICINE"
         fields = [\
-            DBField("ENTRY",        "INTEGER", True),
-            DBField("TIME",         "INTEGER", False),
-            DBField("MEDICINE",     "TEXT", False),
-            DBField("HEADACHE", "INT", False),
+            DBField("ENTRY",    "INTEGER", True),
+            DBField("TIME",     "INTEGER", False),
+            DBField("MEDICINE", "TEXT",    False),
+            DBField("HEADACHE", "INT",     False),
         ]
         parent=super(MasterTable, self)
         parent.__init__(self.TABLE_NAME, fields)
